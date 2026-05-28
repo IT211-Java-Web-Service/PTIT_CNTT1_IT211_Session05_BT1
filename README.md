@@ -8,20 +8,20 @@
 
 | Loại | Ví dụ |
 |------|-------|
-| ✅ Đúng | `GET /students` |
-| ✅ Đúng | `DELETE /students/5` |
-| ❌ Sai | `GET /getStudents` |
-| ❌ Sai | `POST /deleteStudent/5` |
+| Đúng | `GET /students` |
+| Đúng | `DELETE /students/5` |
+| Sai | `GET /getStudents` |
+| Sai | `POST /deleteStudent/5` |
 
 ---
 
 ## 2. Ví dụ API Quản Lý Sinh Viên
 
-### ✅ Ví dụ đúng
+### Ví dụ đúng
 - `GET /students` — Lấy danh sách tất cả sinh viên
 - `POST /students` — Tạo mới một sinh viên
 
-### ❌ Ví dụ sai
+### Ví dụ sai
 - `GET /getListSinhVien` — Dùng động từ và tiếng Việt lẫn lộn
 - `POST /taoSinhVienMoi` — Dùng động từ, không theo chuẩn REST
 
@@ -31,11 +31,11 @@
 
 | Method | Mục đích chính | Có body không? (thường) |
 |--------|---------------|------------------------|
-| GET | Lấy dữ liệu từ server | ❌ Không |
-| POST | Tạo mới một tài nguyên | ✅ Có |
-| PUT | Cập nhật **toàn bộ** một tài nguyên (thay thế hoàn toàn) | ✅ Có |
-| PATCH | Cập nhật **một phần** tài nguyên (chỉ các trường được gửi lên) | ✅ Có |
-| DELETE | Xóa một tài nguyên | ❌ Thường không |
+| GET | Lấy dữ liệu từ server | Không |
+| POST | Tạo mới một tài nguyên | Có |
+| PUT | Cập nhật **toàn bộ** một tài nguyên (thay thế hoàn toàn) | Có |
+| PATCH | Cập nhật **một phần** tài nguyên (chỉ các trường được gửi lên) | Có |
+| DELETE | Xóa một tài nguyên | Thường không |
 
 ---
 
